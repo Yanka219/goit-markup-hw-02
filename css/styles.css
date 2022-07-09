@@ -1,6 +1,19 @@
-body {
-    background-color: #fff;
-    color: #2F303A;
+:root{
+    --primary-text-color: #757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+}
+
+/* Цвет основного текста : #212121 */
+
+/* Вторичный цвет текста: #757575 */
+
+/* Белый цвет :#FFFFFF */
+
+/* Акцент: #2196F3*/
+
+body {background-color: #E5E5E5;
+    color:var(--title-text-color);
 }
 .list{
     list-style: none;
@@ -12,35 +25,39 @@ body {
     font-size: 26px;
     line-height: 1,19;
     letter-spacing: 0.03em;
-    color: #2196F3;}
+    color: var(--accent-color);}
     
-.logo-accent {color: #212121;
+.logo-accent {color: var(--title-text-color);
     }
   h1{color: #FFFFFF;
 }
     /* Site-nav */
     .site-nav a{
-        color: #212121;
-
+        color: var(--title-text-color)
     }
     .link:hover,
     .link:focus {
-        color: #2196F3;
+        color: var(--accent-color);
 
     }
 
     .contact-nav a{
-        color: #212121;
+        color: var(--title-text-color);
     }
 
+   /*Button*/
+    .button {color:#FFFFFF;
+    background-color:var(--accent-color);  
+  }
+    
     .section-title{
-        color:#212121 ;
+        color:var(--title-text-color) ;
     }
 
     h2,
     h3{
-        color: #212121;
+        color: var(--title-text-color);
     }
     
-    p{color: #757575
+    p{color: var(--primary-text-color)
     ;}
