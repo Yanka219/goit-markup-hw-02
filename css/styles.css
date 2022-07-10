@@ -41,12 +41,17 @@ body {background-color: #E5E5E5;
 
     }
 
+    .site-nav .link-current{
+        color: var(--accent-color);
+    }
+
     .contact-nav a{
-        color: var(--title-text-color);
+        color: var(--primary-text-color);
     }
 
    /*Button*/
-    button {color:#FFFFFF;
+   .primary-button
+    {color:#FFFFFF;
     background-color:var(--accent-color);  
   }
     
@@ -61,3 +66,10 @@ body {background-color: #E5E5E5;
     
     p{color: var(--primary-text-color)
     ;}
+
+    .address{color: #FFFFFF;
+    }
+
+    .pages-nav.list{
+        
+    }
