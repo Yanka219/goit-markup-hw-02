@@ -46,7 +46,7 @@ body {background-color: #E5E5E5;
     }
 
    /*Button*/
-    .button {color:#FFFFFF;
+    button {color:#FFFFFF;
     background-color:var(--accent-color);  
   }
     
