@@ -12,7 +12,7 @@
 
 /* Акцент: #2196F3*/
 
-body {background-color: #E5E5E5;
+body {
     color:var(--title-text-color);
 
     font-family: Roboto, sans-serif;
@@ -86,15 +86,18 @@ body {background-color: #E5E5E5;
     }
 
     h1{color: #FFFFFF;
-      
+      font-weight: 900;
       font-weight: 400;
       font-size: 44px;
       line-height:1.36;
       text-align: center;
+
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
       }
 
     /*Button STUDIO*/
-   .primary-button
+    .primary-button
     {color:#F5F4FA;
     background-color:var(--accent-color);  
     border-color: var(--accent-color);
@@ -107,18 +110,14 @@ body {background-color: #E5E5E5;
   button:hover,
   button:focus {
      color: #FFFFFF;
-    background-color: var(--accent-color);
+    background-color: #188ce8;
     border-color: var(--accent-color);
   }
 
-  .title{
-    background-color: #E5E5E5;
-  }
+  
     .task{
         color:var(--title-text-color);
-
-        font-family: 'Roboto';
-        font-style: normal;
+        
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -126,9 +125,7 @@ body {background-color: #E5E5E5;
         text-transform: uppercase;
     }
 
-    .grey{
-      background-color: #E5E5E5;
-    }
+    
     
     .task-description{color: var(--primary-text-color);
 
@@ -143,8 +140,8 @@ body {background-color: #E5E5E5;
 
      .section-title-examples{
       color:var(--title-text-color);
-      background-color: #E5E5E5;
-      font-weight: 400;
+   
+      font-weight: 700;
       font-size: 36px;
       line-height: 1.16;
       text-align: center;
@@ -152,7 +149,14 @@ body {background-color: #E5E5E5;
 
      }
 
-     .section-team{
+     .section-grey{
+      background-color: #E5E5E5;
+     }
+
+     .title{
+      background-color: #E5E5E5;
+     }
+     .section-team {
       background-color:#F5F4FA;
      }
 
@@ -209,7 +213,7 @@ body {background-color: #E5E5E5;
 
       .footer-contact a{
         color: rgba(255, 255, 255, 0.6);
-        font-family: 'Roboto';
+      
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
@@ -218,6 +222,10 @@ body {background-color: #E5E5E5;
         letter-spacing: 0.03em;
         text-decoration: none;
 
+      }
+
+      .address{
+        font-style: normal;
       }
 
     /* PORTFOLIO*/
@@ -232,6 +240,7 @@ body {background-color: #E5E5E5;
 /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
+  
 
   }
   .button-prtfl{
@@ -243,6 +252,7 @@ body {background-color: #E5E5E5;
 /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
+   
   }
 
   .portfolio-title{
@@ -252,7 +262,6 @@ body {background-color: #E5E5E5;
     line-height:2;
 /* identical to box height, or 200% */
     letter-spacing: 0.06em;
-
     text-decoration: none;
   }
 
@@ -263,11 +272,13 @@ body {background-color: #E5E5E5;
     line-height: 1.88;
 /* identical to box height, or 188% */
     letter-spacing: 0.03em;
-
-    text-decoration: none;
+    
   }
 
-  .body-portfolio{
-    background-color: #E5E5E5;
-  }
+ a{
+  text-decoration: none;
+ }
  
+ .main-prtfl{
+  background-color: #E5E5E5;
+ }
