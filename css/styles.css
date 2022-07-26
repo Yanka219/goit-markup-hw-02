@@ -87,7 +87,7 @@ body {
 
     h1{color: #FFFFFF;
       font-weight: 900;
-      font-weight: 400;
+      
       font-size: 44px;
       line-height:1.36;
       text-align: center;
@@ -149,13 +149,7 @@ body {
 
      }
 
-     .section-grey{
-      background-color: #E5E5E5;
-     }
-
-     .title{
-      background-color: #E5E5E5;
-     }
+    
      .section-team {
       background-color:#F5F4FA;
      }
@@ -279,6 +273,4 @@ body {
   text-decoration: none;
  }
  
- .main-prtfl{
-  background-color: #E5E5E5;
- }
+ 
